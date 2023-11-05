@@ -220,7 +220,7 @@ const todoItem = document.querySelectorAll(".item")
         const draggingItem = todoContainer.querySelector(".dragging")
         const siblings = [...todoContainer.querySelectorAll(".item:not(.dragging)")];
         let nextSibling = siblings.find(sibling =>{
-            return e.clientY <= sibling.offsetTop + sibling.offsetHeight / 0.7;
+            return e.clientY <= sibling.offsetTop + sibling.offsetHeight / 0.4;
         })
         todoContainer.insertBefore(draggingItem , nextSibling );
     
