@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Todo app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main id="main">
+    <div class="container">
+      <div class="top">
+        <h1>TODO</h1>
+        <img src="images/icon-sun.svg" alt="" class="colorMode">
+      </div>
+      <form id="form">
+        <div class="item-input">
+          <div class="circle"></div>
+          <input type="text" name="" id="input" placeholder="Create a new todo..">
+        </div>
+      </form>
+      <div id="todo-container" class="items-container">
+
+        
+
+      </div>
+      <div class="bottom">
+        <p class="items-left"><span class="left-todo"> 0 </span> items left</p>
+        <div class="centerBtns hidden">
+          <p class="b-btn active allTodo">All</p>
+          <p class="b-btn activeTodo">Active</p>
+          <p class="b-btn completed">Completed</p>
+        </div>
+        <p class="btn-clear">Clear Completed</p>
+      </div>
+    
+    <!-- for mobile -->
+    <div class="centerBtns mobile">
+      <p class="b-btn active allTodo">All</p>
+      <p class="b-btn activeTodo">Active</p>
+      <p class="b-btn completed">Completed</p>
+    </div>
+      <p class="lastP">Drag and drop to reorder the list</p>
+
+  </div>
+ 
+ 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Nouman-khan-dev">Nouman Khan</a>.
+  </div>
+ </main>
+  <script src="script.js"></script>
+</body>
+</html>
